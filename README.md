@@ -18,6 +18,9 @@ JavaScript: JavaScript is used to add interactivity and functionality to the fit
 ##### FEATURES
 
 
+![image](https://github.com/naman0403/SCM-Project/assets/156660444/888e71f6-ddd6-4b7d-be50-501e587fd324)
+
+
 
 
 
