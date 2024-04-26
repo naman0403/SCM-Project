@@ -4,8 +4,11 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 
 ### TEAM MEMBERS
 MUSKAN(2310992158)
+<br>
 NAMAN(231092160)
+<br>
 NAMITA(2310992161)
+<br>
 
 #### PROJECT DESCRIPTION
 HTML: HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
