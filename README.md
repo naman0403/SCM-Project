@@ -12,10 +12,13 @@ NAMITA(2310992161)
 
 #### PROJECT DESCRIPTION
 HTML: HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
+
 <br>
 CSS: CSS (Cascading Style Sheets) is used to style the HTML elements, defining their appearance, colors, fonts, and layout to create a visually appealing user interface for the fitness tracker app.
+
 <br>
 JavaScript: JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external APIs for features like real-time tracking and analysis.
+
 
 ##### FEATURES
 
