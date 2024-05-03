@@ -16,8 +16,8 @@ NAMITA(2310992161)
 <br>
 * CSS: CSS (Cascading Style Sheets) is used to style the HTML elements, defining their appearance, colors, fonts, and layout to create a visually appealing user interface for the fitness tracker app.
 <br>
-<br>
-* JavaScript: JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external APIs for features like real-time tracking and analysis.
+* JavaScript: JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
+APIs for features like real-time tracking and analysis.
 <br>
 
 ##### FEATURES
