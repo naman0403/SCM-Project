@@ -20,6 +20,9 @@ CSS: CSS (Cascading Style Sheets) is used to style the HTML elements, defining t
 JavaScript: JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
 APIs for features like real-time tracking and analysis.
 <br>
+<br>
+Python:
+
 
 ##### FEATURES
 
