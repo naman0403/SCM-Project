@@ -21,7 +21,7 @@ JavaScript: JavaScript is used to add interactivity and functionality to the fit
 APIs for features like real-time tracking and analysis.
 <br>
 <br>
-Python:
+Python: Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
 
 
 ##### FEATURES
