@@ -11,26 +11,21 @@ NAMITA(2310992161)
 <br>
 
 #### PROJECT DESCRIPTION
-HTML: HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
+HTML <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="45" height="45"/>: HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
 <br>
 <br>
-CSS: CSS (Cascading Style Sheets) is used to style the HTML elements, defining their appearance, colors, fonts, and layout to create a visually appealing user interface for the fitness tracker app.
+CSS <img src="https://billing.flourisense.in/wp-content/uploads/2022/11/css3.png" width="45" height="45"/>: CSS (Cascading Style Sheets) is used to style the HTML elements, defining their appearance, colors, fonts, and layout to create a visually appealing user interface for the fitness tracker app.
 <br>
 <br>
-JavaScript: JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
+JavaScript <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" width="45" height="45"/>
+: JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
 APIs for features like real-time tracking and analysis.
 <br>
 <br>
-Python: Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
+Python 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" width="45" height="45"/>: Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
 <br>
 <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="45" height="45"/>
-
-<img src="https://billing.flourisense.in/wp-content/uploads/2022/11/css3.png" width="45" height="45"/>
-
-<img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" width="45" height="45"/>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" width="45" height="45"/>
 
 
 
