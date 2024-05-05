@@ -1,13 +1,14 @@
 # SCM-Project
-## FITNESS TRACKER APP-SYNCFIT
+## FITNESS TRACKER APP-SYNCFIT 🏋️‍♀️🏃‍♂️💪
+
 SYNCFIT is the ultimate fitness tracker app designed to help you achieve your health and wellness goals effortlessly. Whether you're a seasoned athlete or just starting your fitness journey, TrackFit provides the tools and motivation you need to stay on track and reach your targets.
 
 ### TEAM MEMBERS
-MUSKAN(2310992158)
+- MUSKAN(2310992158)
 <br>
-NAMAN(231092160)
+- NAMAN(231092160)
 <br>
-NAMITA(2310992161)
+- NAMITA(2310992161)
 <br>
 
 #### PROJECT DESCRIPTION
