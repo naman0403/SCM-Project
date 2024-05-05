@@ -24,9 +24,9 @@ APIs for features like real-time tracking and analysis.
 Python: Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
 <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="45" height="45"/>
-<img src="https://en.wikipedia.org/wiki/CSS#/media/File:CSS3_logo_and_wordmark.svg" width="45" height="45"/>
+<img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.jpg" width="45" height="45"/>
 <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" width="45" height="45"/>
-<img src="https://en.wikipedia.org/wiki/Python_(programming_language)#/media/File:Python-logo-notext.svg" width="45" height="45"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" width="45" height="45"/>
 
 
 
