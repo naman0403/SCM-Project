@@ -42,7 +42,8 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 - Real-time Updates
 - Data Persistence 
 - Form Validation 
-
+<br>
+<br>
 
 
 ![image](https://github.com/naman0403/SCM-Project/assets/156660444/888e71f6-ddd6-4b7d-be50-501e587fd324)
