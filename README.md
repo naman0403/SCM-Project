@@ -11,7 +11,6 @@ NAMITA(2310992161)
 <br>
 
 #### PROJECT DESCRIPTION
-![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f 
 HTML: HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
 <br>
 <br>
