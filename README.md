@@ -3,8 +3,8 @@
 
 SYNCFIT 🏋🏽🔥💪🏼 is the ultimate fitness tracker app designed to help you achieve your health and wellness goals effortlessly. Whether you're a seasoned athlete or just starting your fitness journey, TrackFit provides the tools and motivation you need to stay on track and reach your targets.
 
-<img src="https://img.shields.io/badge/TEAM%20MEMBERS-aqua?style=flat-square" alt="TEAM MEMBERS" />
 
+<img src="https://img.shields.io/badge/TEAM%20MEMBERS-aqua?style=flat-square" alt="TEAM MEMBERS" />
 - MUSKAN(2310992158)
 - NAMAN(2310992160)
 - NAMITA(2310992161)
