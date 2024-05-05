@@ -26,12 +26,16 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 
 ###### HTML Features:
 - *User Profile Page*
+   <br>
   Allow users to create profiles and view/edit their personal information.
 - *Dashboard* 
-  Display user's fitness data like steps, calories burned, distance traveled, etc.
+ <br>
+ Display user's fitness data like steps, calories burned, distance traveled, etc.
 - *Activity Log*
+  <br>
   Show a history of user's activities such as workouts, runs, walks, etc.
 - *Goal Setting*
+  <br>
   Allow users to set fitness goals and track their progress.
 
 ###### CSS Features:
