@@ -25,16 +25,16 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 ##### FEATURES
 
 ###### HTML Features:
-- User Profile Page
-Allow users to create profiles and view/edit their personal information.
-- Dashboard 
-Display user's fitness data like steps, calories burned, distance traveled, etc.
-- Activity Log 
-Show a history of user's activities such as workouts, runs, walks, etc.
-- Goal Setting
-Allow users to set fitness goals and track their progress.
+- *User Profile Page*
+  Allow users to create profiles and view/edit their personal information.
+- *Dashboard* 
+  Display user's fitness data like steps, calories burned, distance traveled, etc.
+- *Activity Log*
+  Show a history of user's activities such as workouts, runs, walks, etc.
+- *Goal Setting*
+  Allow users to set fitness goals and track their progress.
 
-####### CSS Features:
+###### CSS Features:
 - Responsive Design
 Ensure your app looks good and functions well on various devices and screen sizes.
 - Custom Styling
@@ -44,7 +44,7 @@ Add subtle animations to enhance user experience, like transitions between pages
 - Accessibility
 Implement accessibility features such as proper contrast ratios and keyboard navigation.
 
-######## JavaScript Features:
+###### JavaScript Features:
 - Data Visualization 
 Use JavaScript libraries like Chart.js to create interactive charts for displaying fitness data.
 - Real-time Updates
