@@ -5,24 +5,15 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 
 ### TEAM MEMBERS
 - MUSKAN(2310992158)
-<br>
-- NAMAN(231092160)
-<br>
+- NAMAN(2310992160)
 - NAMITA(2310992161)
-<br>
 
 #### PROJECT DESCRIPTION
-HTML : HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
-<br>
-<br>
-CSS : CSS (Cascading Style Sheets) is used to style the HTML elements, defining their appearance, colors, fonts, and layout to create a visually appealing user interface for the fitness tracker app.
-<br>
-<br>
-JavaScript : JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
-APIs for features like real-time tracking and analysis.
-<br>
-<br>
-Python : Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
+- HTML : HTML (Hypertext Markup Language) is used to structure the content of the fitness tracker app, defining the layout of elements such as buttons, forms, and text.
+- CSS : CSS (Cascading Style Sheets) is used to style the HTML elements, defining their appearance, colors, fonts, and layout to create a visually appealing user interface for the fitness tracker app.
+- JavaScript : JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
+  APIs for features like real-time tracking and analysis.
+- Python : Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
 <br>
 <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="45" height="45"/>
