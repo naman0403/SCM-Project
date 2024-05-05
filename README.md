@@ -1,7 +1,7 @@
 # SCM-PROJECT
-<img alt="Static Badge" src="https://img.shields.io/badge/FITNESS-TRACKER-APP"> 🏋️‍♀️🏃‍♂️💪
-
-SYNCFIT is the ultimate fitness tracker app designed to help you achieve your health and wellness goals effortlessly. Whether you're a seasoned athlete or just starting your fitness journey, TrackFit provides the tools and motivation you need to stay on track and reach your targets.
+<img alt="Static Badge" src="https://img.shields.io/badge/FITNESS-TRACKER-APP" width="45" height="45"/>
+ 
+SYNCFIT 🏋🏽🔥💪🏼 is the ultimate fitness tracker app designed to help you achieve your health and wellness goals effortlessly. Whether you're a seasoned athlete or just starting your fitness journey, TrackFit provides the tools and motivation you need to stay on track and reach your targets.
 
 ### TEAM MEMBERS
 - MUSKAN(2310992158)
