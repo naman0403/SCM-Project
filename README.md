@@ -1,4 +1,4 @@
-# SCM-Project
+# SCM-PROJECT
 ## FITNESS TRACKER APP-SYNCFIT 🏋️‍♀️🏃‍♂️💪
 
 SYNCFIT is the ultimate fitness tracker app designed to help you achieve your health and wellness goals effortlessly. Whether you're a seasoned athlete or just starting your fitness journey, TrackFit provides the tools and motivation you need to stay on track and reach your targets.
