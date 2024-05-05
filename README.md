@@ -18,7 +18,7 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 <div class="inline-block">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="45" height="45"/>
 <img src="https://billing.flourisense.in/wp-content/uploads/2022/11/css3.png" width="45" height="45"/>
-<img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" width="45" height="45"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59m3YRaOrM0AN8pdjaAVxR1SEpPaHBVWa1w&usqp=CAU" width="45" height="45"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" width="45" height="45"/>
 </div>
 
