@@ -14,8 +14,6 @@ SYNCFIT is the ultimate fitness tracker app designed to help you achieve your he
 - JavaScript : JavaScript is used to add interactivity and functionality to the fitness tracker app, such as handling user inputs, performing calculations, updating data dynamically, and interacting with external 
   APIs for features like real-time tracking and analysis.
 - Python : Python is used in a fitness tracker app for data analysis, algorithm implementation, and backend server operations.
-<br>
-<br>
 <div>
 <div class="inline-block">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="45" height="45"/>
