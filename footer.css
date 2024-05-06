@@ -1,0 +1,114 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the Advanced Footer */
+.advanced-footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.footer-logo {
+    text-align: center;
+
+}
+
+.footer-logo img, p, div{
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    
+    height: 70px ;
+    width: 130px;
+   
+}
+
+.footer-logo p {
+    font-weight: bold;
+   
+}
+.footer-logo, .footer-contact, .footer-links, .footer-social{
+    display: inline-block;
+    margin-left: 81px;
+    margin-right: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links{
+    font-size: 17px;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-social ul li {
+    margin-bottom: 5px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-content ul li a:hover {
+    color: #ff6600; /* Change the color on hover */
+}

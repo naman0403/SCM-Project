@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,'height=device-height',  initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5v5zjRN+dUqnP8xqdYhIk+W6+/tTGdFYuM1Wt0A23wf/JQM+QRwJQeJYwF2Oc1aCdUqHkA+vPXhvX2AJmIrZRqHmgTvfTaQX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="nutrition.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="sf logo4.png" alt="syncfit" style="width:200px; height: auto; max-width: 100%;"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dashboard.html" >Dashboard</a>
+                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nutrition.html">Nutrition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/workout.html">Workout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                
+                <div class="dropdown">
+                    
+                      <i class="fa-solid fa-user text-primary dropdown-toggle link-secondary" data-bs-toggle="dropdown" style="color:white; font-size: 30px; margin-top: 10px;"></i>
+                   
+                    <ul class="dropdown-menu" style="width: 20px;--bs-dropdown-min-width: 6rem;">
+                        <li><a class="dropdown-item" href="/profile.html">My Profile</a></li>
+                        <li><a class="dropdown-item" href="/settings.html">Settings</a></li>
+                      
+                    </ul>
+                  </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <hr/>
+<!--nutritional tips-->
+<section class="py-3 px-5 text-center container-fluid bg-dark text-white h-auto">
+    <h1 class="fw-bold fs-1">TIPS FOR HEALTHY EATING</h1>
+    <p class="fs-5 fw-light mb-5">Here are some tips that can help you eat healthily</p
+        >
+            <div class="col h-auto " style="display: flex; justify-content: center;">
+                <div class="card h-auto shadow-sm" style="width: 60%;">
+                    
+                    <title>Placeholder</title>
+                    <p class>
+                        </p>
+                    <rect style="width: 100%;">
+                       
+                    <image style=" width: 100%; height:auto;" xlink:href=""/>
+                    <image src="https://i.pinimg.com/originals/52/fb/6b/52fb6b3f103fd0c9ed6865a2b4244143.jpg" style="margin-bottom: 28px;">
+                    </rect>
+                </svg>
+                </div>
+            </div>
+        </div>
+</section>
+        
+        
+        <!--nutritional facts-->
+        <section class="pt-5 pb-5 text-dark">
+            <div class="container-fluid">
+                <h1 class="fw-bold fs-1">NUTRITION FACTS</h1>
+                <hr/>
+                
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Calories</th>
+                            <th scope="col">Protein (g)</th>
+                            <th scope="col">Fat (g)</th>
+                            <th scope="col">Carbohydrate (g)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Veer</td>
+                                    <td>2000</td>
+                                    <td><div class="bg-primary p-2" style="width: 35px;">50</div></td>
+                                    <td><div class="p-2" style="width: 35px; background-color: black; color: #f2f2f2;">70</div></td>
+                                    <td><div class="p-2" style="width: 45px;background-color: orange;">275</div></td>
+
+                                </tr>
+                            </tbody>
+
+                        </tr>
+                    </thead>
+
+                </table>
+
+            </div>
+
+        </section>
+        <!--nutritiol facts pie chart-->
+        <section class=" py-5">
+            <div class="container-fluid">
+                <h1 class="fw-bold fs-1">Nutrition Facts Pie Chart</h1>
+                <hr />
+                <canvas id="myChart">
+                
+                </canvas>
+
+
+            </div>
+
+        </section>
+        <!--recipes-->
+        <section class="bg-primary py-5 text-center text-white">
+            <div class="container-fluid">
+                <h1 class="fw-bold fs-1">RECIPES</h1>
+                <hr/>
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="
+                        active"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/recipe1.png" alt="Butternut Burrito Bowls" width="1100
+                            " height="480">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/recipe2.png" alt="Chana Salad" width="1100
+                                " height="480">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/recipe3.png" alt="" width="110
+                                " height="480">
+
+                            </div>
+                            
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-
+                        slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-
+                    slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!--end of recipe section -->
+        <!--about us -->
+        <section class="py-3 bg-light">
+            <div class="container">
+                <h1 class="text-center fw-bolder text-dark">ABOUT US</h1>
+                <div class="row gx-5 gy-3 mt-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 shadow-sm">
+                            <img src="data:image/png;base64,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" class="card-img-top"
+                            style="height: 20rem; object-fit: cover;">
+                            <div class="card-body pb-0 pt-3">
+                                <h5 class="fw-bold fs-5">Chef John Doe</h5>
+                                <small class="text-muted">Head Chef</small><br /><br />
+                                <ul class="list-unstyled ps-0">
+                                    <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>Location</li>
+                                    <li class="mb-2"><i class="bi bi-telephone me-2"></i>(+62)
+                                        897-897-897</li>
+                                        <li class="mb-2"><i class="bi bi-envelope me-2"></i>johndoe@
+                                            example.com</li>
+                                            </ul>
+                                            <hr class="dropdown-divider my-0">
+                                           
+                                </ul>
+                                
+                
+                            </div>
+
+                        </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="data:image/png;base64,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" class="card-img-top"
+                        style="height: 20rem; object-fit: cover;">
+                        <div class="card-body pb-0 pt-3">
+                            <h5 class="fw-bold fs-5">Chef Jane Smith</h5>
+                            <small class="text-muted">Assistant Head Chef</small><br /><br />
+                            <ul class="list-unstyled ps-0">
+                                <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>Location</li>
+                                <li class="mb-2"><i class="bi bi-telephone me-2"></i>(+62)
+                                    897-897-897</li>
+                                    <li class="mb-2"><i class="bi bi-envelope me-2"></i>janesmith@
+                                        example.com</li>
+                                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of row -->
+            <div class="row justify-content-between align-items-center py-5">
+                <div class="col-auto text-gray-500 fw-light pe-5">&copy; 202
+                    <a href="#" class="fs-6 fw-bold">Restaurant Name</a>. All rights reserved.</div>
+                    <div class="col-12 col-md-auto">
+                        <nav aria-label="Bootstrap">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                                <li class="breadcrumb-item"><a href="/aboutus">About Us</a></li>
+                                <li class="breadcrumb-item"><a href="/menu">Menu</a></li>
+                                <li class="breadcrumb-item"><a href="/contactus">Contact Us</a></li>
+                                </ol>
+
+                            
+                        </nav>
+                    </div>
+
+            </div>
+
+        </section>
+
+        <!--nutrition-->
+        <h3>Nutritional Information</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Calories</th>
+                    <th scope="col">Protein (grams)</th>
+                    <th scope="col">Fat (grams)</th>
+                    <th scope="col">Carbohydrate (grams)</th>
+                    
+                </tr>
+
+            </thead>
+        
+            <tbody>
+                
+                <tr>
+                    <td>Veer</td>
+                    <td>2500</td>
+                    <td>70</td>
+                    <td>27</td>
+                    <td>90</td>
+
+                </tr>
+            </tbody>
+        
+            
+        </table>
+        <!--end nutrition-->
+        <!--exercise-->
+        <h3>Exercises</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Duration(Minutes)</th>
+                    <th scope="col">Distance(Km)</th>
+                    <th scope="col">Intensity</th>
+                    
+                    <th scope="col">Date</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+
+                
+                    <td>Veer</td>
+                    <td>45min</td>
+                    <td>15km</td>
+                    <td>28</td>
+                    <td></td>
+
+                </tr>
+            </tbody>
+
+        </table>
+    
+        <!--end exercise-->
+        <!--sleep-->
+        <!--<h3>Sleep Data</h3>
+        <div id='graph'>-->
+          
+
+        </div>
+       
+            <!--end sleep-->
+            <!--nutrition-->
+          
+       
+    </main>
+    <footer class="advanced-footer">
+        <div class="footer-logo">
+            <img src="sf logo4.png" alt="SyncFit Logo" height="200px" width="200px">
+            <p>Your Fitness Tracker</p>
+            <div class="footer-content">
+                <p>&copy; 2023 SyncFit</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube" style="color: #f2f2f2;"></i></i></a></li>   
+                </ul>
+            </div>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="workout.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@syncfit.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>

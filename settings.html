@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,'height=device-height',  initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5v5zjRN+dUqnP8xqdYhIk+W6+/tTGdFYuM1Wt0A23wf/JQM+QRwJQeJYwF2Oc1aCdUqHkA+vPXhvX2AJmIrZRqHmgTvfTaQX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="sf logo4.png" alt="syncfit" style="width:200px; height: auto; max-width: 100%;"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/dashboard.html" role="button" data-bs-toggle="dropdown">Dashboard</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nutrition.html">Nutrition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/workout.html">Workout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                
+                <div class="dropdown">
+                    
+                      <i class="fa-solid fa-user text-primary dropdown-toggle link-secondary" data-bs-toggle="dropdown" style="color:white; font-size: 25px; margin: 10px"></i>
+                   
+                    <ul class="dropdown-menu" style="width: 20px;--bs-dropdown-min-width: 6rem;">
+                        <li><a class="dropdown-item" href="/profile.html">My Profile</a></li>
+                        <li><a class="dropdown-item" href="/settings.html">Settings</a></li>
+                      
+                    </ul>
+                  </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <main class="p-5">
+<!--settings-->
+<section class=" p-5 text-center" style="background-color: #6b626280;">
+    <h2 class="mb-5">Settings</h2>
+        <div class="row gx-5 justify-content-center" >
+
+<!--profile setting-->
+            <div class="col-lg-6 col-xl-4 w-75" >
+                <div class="card mb-3">
+                    <div class="card-body " >
+                        <h5 class="card-title">Profile Settings</h5>
+                        <p class="small text-muted">Update your profile information and settings.</p>
+                        <hr />
+                        <a href="/profile/edit" class="btn btn-primary w-100" id="button" data-bs-toggle="modal" data-bs-target="#myModal1">Edit Profile</a>
+                    </div>
+                </div>
+            </div>                   
+
+                    <!--the modal edit-->
+                    <div class="modal" id="myModal1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                    
+                                <!-- Modal Header -->
+                                    <div class="modal-header ">
+                                        <h4 class="modal-title">Edit Profile</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                        
+                                <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <!--edit profile-->
+                                        <form action="/updateprofile/{{$users->id}}" method="POST" enctype="multipart/form-data
+                                            ">
+                                        
+                                            
+                                            <label for="name"><strong>Name :</strong></label><br>
+                                            <input type="text" name="name" placeholder="Name" required/><br>
+                                            <label for="email"><strong>Email :</strong></label><br>
+                                            <input type="text" name="email" placeholder="Email" readonly/><br>
+                                            <label for="phone_number"><strong>Phone Number :</strong></label><br>
+                                            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4
+                                                }" name="phone_number" placeholder="XXXXX-XXXXX"/><br>
+                                                <label for="address"><strong>Address :</strong></label><br>
+                                                <textarea rows="4" cols="50" name="address" form="usrform" maxlength="255"
+                                                wrap="hard" required></textarea><br>
+                                                <label for="image"><strong>Image :</strong></label><br>
+                                                <img src="/" alt="" width="80px" height="8
+                                                0px">   
+                                                <input type="file" name="image" accept=".jpg, .png, .jpeg, .gif|image/*" >
+                                                <br><br>
+                                                <input type="submit" class="btn btn-primary" value="Save Changes">
+                                                
+                                        </form>
+                                        
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    
+<!--password setting-->
+                                <div class="col-lg-6 col-xl-4 w-75">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Password Settings</h5>
+                                            <p class="small text-muted">Change the password for your account.</p>
+                                            <hr />
+                                            <a href="/password/change" id="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#myModal2">Change Password</a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                
+                    <!--the modal edit-->
+                    <div class="modal" id="myModal2">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                    
+                                <!-- Modal Header -->
+                                    <div class="modal-header ">
+                                        <h4 class="modal-title">Change Password</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                        
+                                <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <div class="container p-4">
+                                            
+                                                <div class="card-body">
+                                                    <div class="card-body">
+                                                                <form action="/changepassword" method="POST">
+                                                                    
+                                                                    <label for="current_password" class="fw-bolder">Current password</label><br/>
+                                                                    <input type="password" id="current_password" name="current_password"><br/><br/>
+                                                                    <label for="new_password" class="fw-bolder">New password</label><br/>
+                                                                    <input type="password" id="new_password" name="new_password"><br/><br/>
+                                                                    <label for="confirm_password" class="fw-bolder">Confirm new password</label><br/>
+                                                                    <input type="password" id="confirm_password" name="confirm_password"><br/><br/>
+                                                                    <button type="submit" class="btn btn-outline-dark">Submit</button>
+                                                                </form>
+                                                    </div>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+<!--notification setting-->
+                            
+<div class="col-lg-6 col-xl-4 w-75 text-center">
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Notification Settings</h5>
+            <p class="small text-muted">Manage email preferences and notifications.</p>
+            <hr />
+            <button class="btn btn-primary w-100 "data-bs-toggle="modal" data-bs-target="#myModal3">Notifications</button>
+        </div>
+    </div>
+</div>    
+<!--the modal edit-->
+<div class="modal" id="myModal3">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+                <div class="modal-header ">
+                    <h4 class="modal-title">Notification Settings</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+            <!-- Modal body -->
+                <div class="modal-body">
+                    <!--manage notification settings-->
+                    <div class="">
+                        <div class="col-md-6 text-center d-flex flex-column w-100 ">
+                            <label for="inputEmail4" class="form-label text-center ">New Email Address:</label>
+                            <input type="email" class="form-control text-center w-50 mb-5" name="new_email" placeholder="Enter your new email address here...">
+                            <button>
+                                <i class="fa fa-envelope me-2 text-center ml-5">Submit</i>
+                                
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>                  
+                                
+<!--security setting-->          
+                <div class="col-lg-6 col-xl-4 w-75">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Security Settings</h5>
+                            <p class="small text-muted">Adjust security settings to protect your account.</p>
+                            <hr />
+                            <button class="btn btn-primary w-100">Security Settings</button>
+                        </div>
+                    </div>
+                </div>
+                                        
+        
+<!-- /.container-fluid -->
+
+            
+        
+            
+        
+
+          <!-- Delete Account -->
+          <div class="col-lg-6 col-xl-4 w-75">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Delete Account</h5>
+                <hr />
+                    <button class="btn btn-primary w-100">Delete my Account</button>
+                </div>
+            </div>
+        </div>
+          
+        
+    
+    </div>
+</section>
+        
+            
+    
+      
+</main>
+
+<!-- Footer -->
+
+<footer class="text-center text-lg-start    bg-secondary text-muted" data-bs-theme="dark">
+     
+    <footer class="p-5 bg-dark-20">
+        <div class="container-fluid w-100 d-flex justify-content-evenly align-items-center">
+            <ul class="list-group w-25">
+                <li class="list-group-item list-group-item-dark-20"><a class="nav-link" href="/index.html">Home</a></li>
+                <li class="list-group-item list-group-item-dark-20"><a class="nav-link" href="/dashboard.html">Dashboard</a></li>
+
+                <li class="list-group-item list-group-item-dark-20"><a class="nav-link" href="/nutrition.html">Nutrition</a></li>
+                <li class="list-group-item list-group-item-dark-20"><a class="nav-link" href="/workout.html">Workouts</a></li>
+                <li class="list-group-item list-group-item-dark-20"> <a class="nav-link" href="/contactus.html">Contact Us</a></li>
+                <li class="list-group-item list-group-item-dark-20"><a class="nav-link" href="/login.html">Login</a></li>
+            </ul>
+            <div class="card text-left w-45">
+                <div class="card-body">
+                  <h5 class="card-title">Subscribe to our newsletter</h5>
+                  <p class="card-text">Monthly digest of what's new and exciting from us.</p>
+                  <div class="d-flex align-items-centre">
+                  <div class="mb-3 ">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 300px;">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                <a href="#" class="btn btn-primary ms-2 mb-2">Subscribe</a>
+                </div>
+                </div>
+              </div>
+        </div>
+      </footer>
+      
+    <!-- Copyright -->
+    <div class="container-fluid pt-1 bg-dark" style="background-color: #28262680;">
+        <hr />
+        <div class="container-fluid w-25  d-flex justify-content-center flex-column">
+            <a class="navbar-brand" href="#">
+                <img src="sf logo4.png" alt="syncfit" style="width:200px; height: auto; max-width: 100%;"> 
+            </a>
+            <p class="text-center p-2">Your Fitness Tracker</p>
+        
+    </div>
+    <div class="footer-content">
+        
+        <ul class="nav flex-row d-flex justify-content-center text-body">
+            <li><a href="#" class="me-2"><i class="fa-brands fa-facebook-f" ></i></a></li>
+            <li><a href="#" class="me-2"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#" class="me-2"><i class="fa-brands fa-google-plus-g" ></i></a></li>
+            <li><a href="#" class="me-2"><i class="fa-brands fa-youtube" ></i></i></a></li>   
+        </ul>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0
+    .2);">
+    ©2023 Copyright:
+    <a href="#" class="text-secondary"><b>Syncfit</b></a>
+    </div>
+    </div>
+</div>
+</footer>
+
+
+      
+      
+</body>
+</html>

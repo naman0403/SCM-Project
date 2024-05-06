@@ -1,0 +1,21 @@
+.d-flex{
+    margin-left: auto;
+    align-items: center;
+}
+i:hover{
+    color: brown;
+}
+#button:hover{
+    background-color: #051937 !important;
+}
+ button:hover{
+    background-color: #051937 !important;
+}
+footer div ul li:hover{
+    background-color: rgb(16, 15, 15);
+    color: antiquewhite;
+}
+nav div ul li:hover{
+    background-color: rgb(16, 15, 15);
+    color: antiquewhite;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,'height=device-height',  initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5v5zjRN+dUqnP8xqdYhIk+W6+/tTGdFYuM1Wt0A23wf/JQM+QRwJQeJYwF2Oc1aCdUqHkA+vPXhvX2AJmIrZRqHmgTvfTaQX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="sf logo4.png" alt="syncfit" style="width:200px; height: auto; max-width: 100%;"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dashboard.html" >Dashboard</a>
+                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nutrition.html">Nutrition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/workout.html">Workout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                
+                <div class="dropdown">
+                    
+                  <i class="fa-solid fa-circle-user" style="color:#f2f2f2;font-size: 33px;margin-top: 12px; margin-left: 10px ;"
+                  data-bs-toggle="dropdown" ></i>
+                   
+                    <ul class="dropdown-menu" style="width: 20px;--bs-dropdown-min-width: 6rem;">
+                        <li><a class="dropdown-item" href="/profile.html">My Profile</a></li>
+                        <li><a class="dropdown-item" href="/settings.html">Settings</a></li>
+                      
+                    </ul>
+                  </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <main>
+
+        <section id="hero">
+            <h1>Begin Your Fitness Journey</h1>
+            <p>Track your workouts, set goals, and stay fit!</p>
+            <a href="/login.html" class="cta-button">Get Started</a>
+        </section>
+        <section id="features">
+            <div class="feature">
+
+                <h2>Track Your Activities</h2>
+                <p>Log your workouts, runs, and other activities to monitor your progress.</p>
+                <img src="images/tracking.png" alt="" />
+                
+            </div>
+            <div class="feature">
+                <h2>Set Goals</h2>
+                <p>Set fitness goals to challenge yourself and stay motivated.</p>
+            </div>
+            <div class="feature">
+                <h2>View Statistics</h2>
+                <p>Get insights into your fitness journey with detailed statistics and charts.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="advanced-footer">
+        <div class="footer-logo">
+            <img src="sf logo4.png" alt="SyncFit Logo" height="200px" width="200px">
+            <p>Your Fitness Tracker</p>
+            <div class="footer-content">
+                <p>&copy; 2023 SyncFit</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube" style="color: #f2f2f2;"></i></i></a></li>   
+                </ul>
+            </div>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="workout.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram." target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@syncfit.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>

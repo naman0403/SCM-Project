@@ -1,0 +1,51 @@
+<!--python and html with bootstrap for fitness calculator-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Fitness Calculator</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/
+        font-awesome.min.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jque
+        ry.min.js"></script>
+        <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+        <style type="text/css">
+
+            .container { margin: 5px; }
+            #results { padding: 10px; border: solid black 1px; width: 60%; float: left;}
+            #calculate { clear: both; padding: 10px; text-align: center; background-color: lightgrey;
+                color: darkblue; cursor: pointer; }
+                
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <h2>BMI Calculator</h2>
+            <form id="bmiForm">
+                Height (cm): <input type="number" name="height" value="" required/><br/>
+                Weight (kg): <input type="number" name="weight" value="" required/><br/>
+                Age: <input type="number" name="age" value="" required/><br/>
+                Gender: Male <input type="radio" name="gender" value="male" checked/> Female <input type="radio" name>
+
+            </form>
+            <button id="calculate">Calculate BMI</button><br/>
+            <div id="results">
+                Results will be displayed here...
+                
+            </div>
+<br><br>
+        </div>
+        <pyscript>
+            def calculate_bmi():
+            height = document["bmiForm"]["height"].value / 100
+            weight = document["bmiForm"]["weight"].value
+            age = document["bmiForm"]["age"].value
+            bmi = weight / ((height ** 2) * 9)
+            return f'Your BMI is {round(bmi, 2)} kg/m^2.'
+            document['calculate'].onclick = lambda event : document['results'].innerHTML = calculate_bmi()
+            
+        </pyscript>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+            <ul>
+                <li> <div class="logo"><img src="sf logo4.png" ></div></li>
+                <div class="navmid">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/dashboard.html">Dashboard</a></li>
+                
+                <li><a href="/nutrition.html">Nutrition</a></li>
+                <li><a href="/workout.html">Workout</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+                <li><a href="/login.html">Login</a></li>
+                </div>
+                <li><div class="searchbox">    
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search" type="search" placeholder="Search">
+                </div>
+                </li>
+                <li><a href="/profile.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="contact-form">
+                <h1>Contact Us</h1>
+                <form action="submit_contact_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" >Message:</label>
+                        <textarea id="message" name="message" rows="1" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <footer class="advanced-footer">
+        <div class="footer-logo">
+            <img src="sf logo4.png" alt="SyncFit Logo" height="200px" width="200px">
+            <p>Your Fitness Tracker</p>
+            <div class="footer-content">
+                <p>&copy; 2023 SyncFit</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #f2f2f2;"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube" style="color: #f2f2f2;"></i></i></a></li>   
+                </ul>
+            </div>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="workout.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@syncfit.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>
